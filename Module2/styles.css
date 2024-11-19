@@ -1,0 +1,110 @@
+
+body { 
+    text-align: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+#nav-links, #back-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#nav-links a, #back-link a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #2c2c2c;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+h2 {
+    display: inline-block; 
+    margin-top: 0 auto;
+    text-align: center;
+    padding: 5px 10px; 
+    background-color:#c1a382;
+    border: 2px solid #151312;
+    border-radius: 6px; 
+    color:#040404;
+}  
+
+
+p {
+    text-align: center;
+    background-color: #e2d5c9; 
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px;
+}
+
+ul {
+    background-color: #e2d5c9;
+    border-radius: 8px;
+    list-style-position: inside; 
+    list-style-type: disc; 
+    margin: 10px auto; 
+    padding: 10px; 
+    width:fit-content;
+    text-align: left;  
+}
+
+
+
+img {
+    max-width: 50%; 
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figure img {
+    width: 30%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+}
+
+figcaption {
+    display: inline-block; 
+    background-color:#e2d5c9;
+    border-radius: 6px; 
+    padding: 5px 10px; 
+    margin-top: 10px;
+    text-align: center; 
+}   
+
+progress {
+    display: block;
+    width: 100%;
+    height: 20px;
+    margin: 10px 0;
+}
+
+header, section {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+
+body {
+    background-image: url('claycourt.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
