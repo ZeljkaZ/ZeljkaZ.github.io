@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The Fitness Foodie Blog</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    .row.content {height: 1500px}
+    
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4>The Fitness Foodie Blog</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">Home</a></li>
+        <li><a href="#section2">Recipes</a></li>
+        <li><a href="#section3">Fitness</a></li>
+        <li><a href="#section3">Lifestyle</a></li>
+      </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search Blog..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-sm-9">
+      <h4><small>RECENT POSTS</small></h4>
+      <hr>
+      <h2>Sweet Potato Brownies - Healthy & Delicious!</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Zeljka Zujic, Oct 30, 2024.</h5>
+      <h5><span class="label label-danger">Food</span> <span class="label label-primary">Recipes</span></h5><br>
+      <p>Sweet potato brownies are the perfect combination of health and indulgence. Made with nutrient-packed sweet potatoes, these brownies are rich, fudgy, and loaded with antioxidants. They're gluten-free, versatile, and perfect for guilt-free snacking. Sweet potatoes are rich in vitamins A and C, and fiber, making these brownies both nutritious and satisfying. They're naturally sweet, which means you can use less refined sugar while still achieving a decadent flavor. Best of all, these brownies are simple to make, requiring just a few wholesome ingredients and minimal preparation time—a perfect treat for busy, health-conscious individuals. Whether you're on a fitness journey or simply craving a healthy dessert, these brownies are the way to go.
+    </p>
+      <br><br>
+      <img src="sweet-potato-brownies.jpg" alt="Sweet Potato Brownies" class="img-responsive" style="width: 100%; height: 500px; object-fit: cover; border-radius: 10px;">
+<br><br>
+      
+      <h4><small>RECENT POSTS</small></h4>
+      <hr>
+      <h2>Pre-Workout Nutrition | Fuel Your Workout The Right Way</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Zeljka Zujic, Oct 16, 2024.</h5>
+      <h5><span class="label label-success">Nutrition</span></h5><br>
+      <p>Proper pre-workout nutrition is essential for maximizing performance and preventing fatigue. Eating the right foods before exercise provides your body with the energy needed for intense physical activity and helps maintain stamina throughout the session. Additionally, pre-workout meals can improve focus, reduce the risk of muscle breakdown, and enhance post-workout recovery. Timing and food choices are crucial to ensure your body is fueled without feeling heavy or sluggish. Fueling your body the right way before a workout can make all the difference. Aim for a balanced snack that combines carbohydrates for energy and protein to support muscle repair. Examples include a banana with peanut butter, a smoothie with oats and whey protein, or a handful of almonds with a small apple. Stay hydrated, and remember to eat 30-90 minutes before exercise for optimal performance.</p>
+      <img src="girl-workouts.jpg" alt="A Girl Works Out" class="img-responsive" style="width: 100%; height: 500px; object-fit: cover; border-radius: 10px;">
+      <hr>
+
+      <h4>Leave a Comment:</h4>
+      <form>
+        <div class="form-group">
+          <textarea class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+      <br><br>
+      
+      <p><span class="badge">2</span> Comments:</p><br>
+      
+      <div class="row">
+        <div class="col-sm-2 text-center">
+          <img src="anna.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>Anna.92 <small>Nov 11, 2024, 9:12 PM</small></h4>
+          <p>So glad I found your blog! I am a huge foodie myself and sometimes it can be difficult to find food that can satisfy both my sweet tooth and nutritional needs. But now I know where to look! &#128513; </p>
+          <br>
+        </div>
+        <div class="col-sm-2 text-center">
+          <img src="sofia.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>Sofia.S <small>Nov 1, 2024, 8:25 PM</small></h4>
+          <p>I didn't know cooking could be so easy and fun! I am looking forward to new recipies. So far I tried them all! </p>
+          <br>
+          <p><span class="badge">1</span> Comment:</p><br>
+          <div class="row">
+            <div class="col-sm-2 text-center">
+              <img src="mermaid.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+            </div>
+            <div class="col-xs-10">
+              <h4>Mermaid22 <small>Nov 6, 2024, 11:28 PM</small></h4>
+              <p>Me too! &#128517; </p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid">
+  <p>&copy; 2024 The Fit Foodie. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
